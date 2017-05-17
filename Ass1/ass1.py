@@ -37,24 +37,26 @@ closing="""</body>
 </text>
 </TEI>"""
 
+tag_list = list()
+
 str = codecs.open('input.txt', 'r',encoding="utf8" ).read()
 inner = ""
 nl = ""
 for line in originalText:
 		text = line.split()
-		for wordYael in text:
-			with codecs.open('Meni_Output.txt',encoding="utf8") as menny:
-				for menyLine in menny:
-					if (wordYael in menyLine) and ("properName" in menyLine):
-						wordYael="<properName>"+ wordYael +"</properName>"+"\n"
+		for Origin_word in text:
+			with codecs.open('output.txt',encoding="utf8") as source:
+				for source_line in source:
+					if (Origin_word in source_line) and ("properName" in source_line):
+						Origin_word="<properName>"+ Origin_word +"</properName>"+"\n"
 						break
-					if ("," in wordYael) and (wordYael[:-1] in menyLine) and ("properName" in menyLine):
-						wordYael = "<properName>" + wordYael + "</properName>" + "\n"
+					if ("," in Origin_word) and (Origin_word[:-1] in source_line) and ("properName" in source_line):
+						Origin_word = "<properName>" + Origin_word + "</properName>" + "\n"
 						break
 
-			if (re.findall(r'\d\d\d\d', wordYael)):
-				wordYael= "<Date>" + wordYael +"</Date>" +"\n"
-			nl = " " + wordYael + " "
+			if (re.findall(r'\d\d\d\d', Origin_word)):
+				Origin_word= "<Date>" + Origin_word +"</Date>" +"\n"
+			nl = " " + Origin_word + " "
 			inner = inner + nl
 
 
@@ -62,3 +64,7 @@ for line in originalText:
 outputText=meta+"\n"+inner+"\n"+closing
 
 outputT.write(outputText)
+
+#def scanForTags (file, tag_list):
+#	txt = codecs.open ('output.txt', 'r',encoding="utf8" ).read()
+	
