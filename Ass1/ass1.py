@@ -8,7 +8,7 @@ OriginalT = 'input.txt'
 originalText = codecs.open(OriginalT,'r',encoding='UTF-8')
 
 output = 'output.xml'
-outputT =codecs.open(output,'w',encoding='UTF-8')
+ans =codecs.open(output,'w',encoding='UTF-8')
 meta = """<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
@@ -63,7 +63,7 @@ for line in originalText:
 
 outputText=meta+"\n"+inner+"\n"+closing
 
-outputT.write(outputText)
+ans.write(outputText)
 
 #def scanForTags (file, tag_list):
 #	txt = codecs.open ('output.txt', 'r',encoding="utf8" ).read()
