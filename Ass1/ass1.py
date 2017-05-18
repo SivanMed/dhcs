@@ -29,8 +29,8 @@ meta = """<?xml version="1.0" encoding="UTF-8"?>
    <text>
       <body>"""
 
-closing="""</body>
-</text>
+closing="""		</body>
+	</text>
 </TEI>"""
 
 ###################### Initialization ######################
@@ -65,7 +65,7 @@ def TagWord (word):
 
 scanTags()
 for line in originalText:
-		text = line.split()
+		text = line.split(' ')
 		for Origin_word in text:
 			body = body + TagWord (Origin_word)
 
