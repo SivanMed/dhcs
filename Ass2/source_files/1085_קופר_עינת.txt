@@ -1,0 +1,299 @@
+0 Name Name Name foreign unspecified unspecified unspecified unspecified unspecified  	O	null
+1 : : : punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+2 קופר קופר קופר properName unspecified unspecified unspecified unspecified unspecified  	I_PERS	null
+3 , , , punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+4 עינת עינת עינת properName unspecified unspecified unspecified unspecified unspecified  	I_PERS	null
+5 Birth Birth Birth foreign unspecified unspecified unspecified unspecified unspecified  	O	null
+6 Year Year Year foreign unspecified unspecified unspecified unspecified unspecified  	O	null
+7 : : : punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+8 ###NUMBER### ###NUMBER### ###NUMBER### numeral unspecified unspecified unspecified unspecified unspecified  	I_DATE	null
+9 Birth Birth Birth foreign unspecified unspecified unspecified unspecified unspecified  	O	null
+10 Place Place Place foreign unspecified unspecified unspecified unspecified unspecified  	O	null
+11 : : : punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+12 רמתגן רמתגן רמתגן properName unspecified unspecified unspecified unspecified unspecified  	I_ORG	null
+13 ו ו ולמדה conjunction unspecified unspecified unspecified unspecified unspecified 0 
+13 למדה למד ולמדה verb feminine singular unspecified 3 past  	O	null
+14 ב ב בתיכון preposition unspecified unspecified unspecified unspecified unspecified 0 
+14 תיכון תיכון בתיכון noun masculine singular absolute unspecified unspecified  	O	null
+15 Occupation Occupation Occupation foreign unspecified unspecified unspecified unspecified unspecified  	O	null
+16 : : : punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+17 מתרגמת מתרגם מתרגמת noun feminine singular construct unspecified unspecified  	O	null
+18 Entry Entry Entry foreign unspecified unspecified unspecified unspecified unspecified  	O	null
+19 writer writer writer foreign unspecified unspecified unspecified unspecified unspecified  	O	null
+20 : : : punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+21 דורון דורון דורון properName unspecified unspecified unspecified unspecified unspecified  	I_PERS	null
+22 ב' ב' ב' noun masculine singular absolute unspecified unspecified  	I_DATE	null
+23 כהן כהן כהן properName unspecified unspecified unspecified unspecified unspecified  	I_PERS	null
+24 Entry Entry Entry foreign unspecified unspecified unspecified unspecified unspecified  	O	null
+25 Value Value Value foreign unspecified unspecified unspecified unspecified unspecified  	O	null
+26 : : : punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+27 נולדה נולד נולדה verb feminine singular unspecified 3 past  	O	null
+28 ברמתגן ברמתגן ברמתגן properName unspecified unspecified unspecified unspecified unspecified  	I_PERS	null
+29 ו ו ולמדה conjunction unspecified unspecified unspecified unspecified unspecified 0 
+29 למדה למד ולמדה verb feminine singular unspecified 3 past  	O	null
+30 ב ב בתיכון preposition unspecified unspecified unspecified unspecified unspecified 0 
+30 תיכון תיכון בתיכון noun masculine singular absolute unspecified unspecified  	O	null
+31 " " " punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+32 אהל אוהל אהל noun unspecified unspecified absolute unspecified unspecified  	O	null
+33 שם שם שם properName unspecified unspecified unspecified unspecified unspecified  	I_ORG	null
+34 " " " punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+35 . . . punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+36 ב ב בשנים preposition unspecified unspecified unspecified unspecified unspecified 0 
+36 שנים שנה בשנים noun feminine plural absolute unspecified unspecified  	O	null
+37 ###NUMBER### ###NUMBER### ###NUMBER### numeral unspecified unspecified unspecified unspecified unspecified  	I_DATE	null
+38 - - - punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+39 ###NUMBER### ###NUMBER### ###NUMBER### numeral unspecified unspecified unspecified unspecified unspecified  	I_DATE	null
+40 חיה חי חיה verb feminine singular unspecified 3 past  	I_LOC	null
+41 ב ב ביפן preposition unspecified unspecified unspecified unspecified unspecified 0 
+41 יפן יפן ביפן properName unspecified unspecified unspecified unspecified unspecified  	I_LOC	null
+42 ו ו ולמדה conjunction unspecified unspecified unspecified unspecified unspecified 0 
+42 למדה למד ולמדה verb feminine singular unspecified 3 past  	O	null
+43 את את את at-preposition unspecified unspecified unspecified unspecified unspecified  	O	null
+44 ה ה השפה definiteArticle unspecified unspecified unspecified unspecified unspecified 0 
+44 השפה שפה השפה noun feminine singular absolute unspecified unspecified  	O	null
+45 ה ה היפנית definiteArticle unspecified unspecified unspecified unspecified unspecified 0 
+45 היפנית יפני היפנית adjective feminine singular absolute unspecified unspecified  	O	null
+46 . . . punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+
+0 חיה חיה חיה properName unspecified unspecified unspecified unspecified unspecified  	I_PERS	null
+1 גם גם גם conjunction unspecified unspecified unspecified unspecified unspecified  	O	null
+2 ארבע CARD4 ארבע numeral feminine singular absolute unspecified unspecified  	O	null
+3 שנים שנה שנים noun feminine plural absolute unspecified unspecified  	O	null
+4 ב ב בספרד preposition unspecified unspecified unspecified unspecified unspecified 0 
+4 ספרד ספרד בספרד properName unspecified unspecified unspecified unspecified unspecified  	I_LOC	null
+5 ו ו ושנה conjunction unspecified unspecified unspecified unspecified unspecified 0 
+5 שנה שנה ושנה noun feminine singular absolute unspecified unspecified  	O	null
+6 ב ב בארצות preposition unspecified unspecified unspecified unspecified unspecified 0 
+6 ארצות ארץ בארצות properName unspecified unspecified unspecified unspecified unspecified  	I_LOC	null
+7 הברית ברית הברית properName unspecified unspecified unspecified unspecified unspecified  	I_LOC	null
+8 . . . punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+
+0 מאז מאז מאז adverb unspecified unspecified unspecified unspecified unspecified  	O	null
+1 שנת שינה שנת noun feminine singular construct unspecified unspecified  	O	null
+2 ###NUMBER### ###NUMBER### ###NUMBER### numeral unspecified unspecified unspecified unspecified unspecified  	I_DATE	null
+3 הפכה הפך הפכה verb feminine singular unspecified 3 past  	O	null
+4 ל ל למתרגמת preposition unspecified unspecified unspecified unspecified unspecified 0 
+4 ה ה למתרגמת definiteArticle unspecified unspecified unspecified unspecified unspecified 0 
+4 המתרגמת מתרגם למתרגמת noun feminine singular absolute unspecified unspecified  	O	null
+5 ה ה הפורה definiteArticle unspecified unspecified unspecified unspecified unspecified 0 
+5 הפורה פורה הפורה adjective feminine singular absolute unspecified unspecified  	O	null
+6 ביותר ביותר ביותר adverb unspecified unspecified unspecified unspecified unspecified  	O	null
+7 של של של shel-preposition unspecified unspecified unspecified unspecified unspecified  	O	null
+8 ספרות ספרות ספרות noun feminine singular absolute unspecified unspecified  	O	null
+9 יפנית יפני יפנית adjective feminine singular absolute unspecified unspecified  	O	null
+10 מודרנית מודרני מודרנית adjective feminine singular absolute unspecified unspecified  	O	null
+11 ל ל לעברית preposition unspecified unspecified unspecified unspecified unspecified 0 
+11 עברית עברית לעברית properName feminine singular unspecified unspecified unspecified  	I_LOC	null
+12 . . . punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+
+0 בין בין בין conjunction unspecified unspecified unspecified unspecified unspecified  	O	null
+1 ה ה השאר definiteArticle unspecified unspecified unspecified unspecified unspecified 0 
+1 השאר שאר השאר quantifier unspecified unspecified unspecified unspecified unspecified  	O	null
+2 תירגמה תרגם תירגמה verb feminine singular unspecified 3 past  	O	null
+3 מ מ מספריו preposition unspecified unspecified unspecified unspecified unspecified 0 
+3 ספרי ספר מספריו noun masculine plural absolute unspecified unspecified  
+3 ו ו מספריו possessive masculine singular unspecified 3 unspecified 0 	O	null
+4 של של של shel-preposition unspecified unspecified unspecified unspecified unspecified  	O	null
+5 ה ה הרוקי definiteArticle unspecified unspecified unspecified unspecified unspecified 0 
+5 הרוקי הרוקי הרוקי noun masculine singular absolute unspecified unspecified  	O	null
+6 מ מ מורקמי preposition unspecified unspecified unspecified unspecified unspecified 0 
+6 ורקמי ורקמי מורקמי properName unspecified unspecified unspecified unspecified unspecified  	I_LOC	null
+7 , , , punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+8 ה ה הסופר definiteArticle unspecified unspecified unspecified unspecified unspecified 0 
+8 הסופר סופר הסופר noun masculine singular absolute unspecified unspecified  	O	null
+9 ה ה היפני definiteArticle unspecified unspecified unspecified unspecified unspecified 0 
+9 היפני יפני היפני noun masculine singular absolute unspecified unspecified  	O	null
+10 ה ה הפופולרי definiteArticle unspecified unspecified unspecified unspecified unspecified 0 
+10 הפופולרי פופולרי הפופולרי adjective masculine singular absolute unspecified unspecified  	O	null
+11 ב ב ביותר preposition unspecified unspecified unspecified unspecified unspecified 0 
+11 יותר יותר ביותר quantifier unspecified unspecified construct unspecified unspecified  	O	null
+12 כיום כיום כיום adverb unspecified unspecified unspecified unspecified unspecified  	O	null
+13 ב ב בארץ preposition unspecified unspecified unspecified unspecified unspecified 0 
+13 ה ה בארץ definiteArticle unspecified unspecified unspecified unspecified unspecified 0 
+13 הארץ ארץ בארץ properName unspecified unspecified unspecified unspecified unspecified  	O	null
+14 ו ו ובעולם conjunction unspecified unspecified unspecified unspecified unspecified 0 
+14 ב ב ובעולם preposition unspecified unspecified unspecified unspecified unspecified 0 
+14 עולם עולם ובעולם noun masculine singular construct unspecified unspecified  	O	null
+15 : : : punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+16 מרדף מרדף מרדף noun masculine singular construct unspecified unspecified  	O	null
+17 ה ה הכבשה definiteArticle unspecified unspecified unspecified unspecified unspecified 0 
+17 הכבשה כבשה הכבשה noun feminine singular absolute unspecified unspecified  	O	null
+18 ( ( ( punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+19 כתר כתר כתר noun masculine singular construct unspecified unspecified  	O	null
+20 , , , punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+21 ) ) ) punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+22 ; ; ; punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+23 ###NUMBER### ###NUMBER### ###NUMBER### numeral unspecified unspecified unspecified unspecified unspecified  	I_DATE	null
+24 ספוטניק ספוטניק ספוטניק noun masculine singular construct unspecified unspecified  	O	null
+25 אהובתי אהובתי אהובתי adjective masculine singular absolute unspecified unspecified  	O	null
+26 ) ) ) punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+27 ; ; ; punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+28 ###NUMBER### ###NUMBER### ###NUMBER### numeral unspecified unspecified unspecified unspecified unspecified  	I_DATE	null
+29 קפקא קפקא קפקא noun masculine singular construct unspecified unspecified  	O	null
+30 על על על preposition unspecified unspecified unspecified unspecified unspecified  	O	null
+31 ה ה החוף definiteArticle unspecified unspecified unspecified unspecified unspecified 0 
+31 החוף חוף החוף noun masculine singular absolute unspecified unspecified  	O	null
+32 ) ) ) punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+33 ; ; ; punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+34 ערבה ערב ערבה adjective feminine singular absolute unspecified unspecified  	O	null
+35 ###NUMBER### ###NUMBER### ###NUMBER### numeral unspecified unspecified unspecified unspecified unspecified  	I_DATE	null
+36 עיוורת עיוור עיוורת adjective feminine singular absolute unspecified unspecified  	O	null
+37 ו ו ועלמה conjunction unspecified unspecified unspecified unspecified unspecified 0 
+37 עלמה עלמה ועלמה properName unspecified unspecified unspecified unspecified unspecified  	I_PERS	null
+38 נמה נם נמה verb feminine singular unspecified any beinoni  	O	null
+39 ) ) ) punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+40 ; ; ; punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+41 ###NUMBER### ###NUMBER### ###NUMBER### numeral unspecified unspecified unspecified unspecified unspecified  	I_DATE	null
+42 על על על preposition unspecified unspecified unspecified unspecified unspecified  	O	null
+43 מה מה מה interrogative unspecified unspecified unspecified unspecified unspecified  	O	null
+44 אני הוא אני pronoun masculine-and-feminine singular unspecified 1 unspecified  	O	null
+45 מדבר דיבר מדבר verb masculine singular unspecified any beinoni  	O	null
+46 כש כש כשאני temporalSubConj unspecified unspecified unspecified unspecified unspecified 0 
+46 אני הוא כשאני pronoun masculine-and-feminine singular unspecified 1 unspecified  	O	null
+47 מדבר דיבר מדבר verb masculine singular unspecified any beinoni  	O	null
+48 על על על preposition unspecified unspecified unspecified unspecified unspecified  	O	null
+49 ריצה ריצה ריצה noun feminine singular absolute unspecified unspecified  	O	null
+50 : : : punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+51 מ מ ממואר preposition unspecified unspecified unspecified unspecified unspecified 0 
+51 מואר הואר ממואר participle masculine singular construct any unspecified  	O	null
+52 ( ( ( punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+53 ) ) ) punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+54 ; ; ; punctuation unspecified unspecified unspecified unspecified unspecified  	I_LOC	null
+55 1Q84(2011 1Q84(2011 1Q84(2011 properName unspecified unspecified unspecified unspecified unspecified  	I_ORG	null
+56 ) ) ) punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+57 . . . punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+
+0 ###NUMBER### ###NUMBER### ###NUMBER### numeral unspecified unspecified unspecified unspecified unspecified  	I_DATE	null
+1 היתה הוא היתה copula feminine singular unspecified 3 past  	O	null
+2 ה ה הראשונה definiteArticle unspecified unspecified unspecified unspecified unspecified 0 
+2 הראשונה ORD1 הראשונה numeral feminine singular absolute unspecified unspecified  	O	null
+3 ש ש שתירגמה relativizer/subordinatingConjunction unspecified unspecified unspecified unspecified unspecified 0 
+3 תירגמה תרגם שתירגמה verb feminine singular unspecified 3 past  	O	null
+4 ל ל לעברית preposition unspecified unspecified unspecified unspecified unspecified 0 
+4 עברית עברית לעברית properName feminine singular unspecified unspecified unspecified  	O	null
+5 מ מ מספריו preposition unspecified unspecified unspecified unspecified unspecified 0 
+5 ספרי ספר מספריו noun masculine plural absolute unspecified unspecified  
+5 ו ו מספריו possessive masculine singular unspecified 3 unspecified 0 	O	null
+6 של של של shel-preposition unspecified unspecified unspecified unspecified unspecified  	O	null
+7 ה ה הסופר definiteArticle unspecified unspecified unspecified unspecified unspecified 0 
+7 הסופר סופר הסופר noun masculine singular absolute unspecified unspecified  	O	null
+8 ה ה היפני definiteArticle unspecified unspecified unspecified unspecified unspecified 0 
+8 היפני יפני היפני noun masculine singular absolute unspecified unspecified  	O	null
+9 ה ה הבולט definiteArticle unspecified unspecified unspecified unspecified unspecified 0 
+9 הבולט בלט הבולט participle masculine singular absolute any unspecified  	O	null
+10 אקירה אקירה אקירה properName unspecified unspecified unspecified unspecified unspecified  	I_PERS	null
+11 יושימורה יושימורה יושימורה properName unspecified unspecified unspecified unspecified unspecified  	I_PERS	null
+12 , , , punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+13 ש ש שיצירותיו relativizer/subordinatingConjunction unspecified unspecified unspecified unspecified unspecified 0 
+13 יצירות יצירה שיצירותיו noun feminine plural absolute unspecified unspecified  
+13 ו ו שיצירותיו possessive masculine singular unspecified 3 unspecified 0 	O	null
+14 עוסקות עסק עוסקות verb feminine plural unspecified any beinoni  	O	null
+15 ב ב בבעיות preposition unspecified unspecified unspecified unspecified unspecified 0 
+15 בעיות בעיה בבעיות noun feminine plural construct unspecified unspecified  	O	null
+16 מוסריות מוסרי מוסריות adjective feminine plural absolute unspecified unspecified  	O	null
+17 סבוכות סבוך סבוכות adjective feminine plural absolute unspecified unspecified  	O	null
+18 : : : punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+19 ספינות ספינה ספינות noun feminine plural construct unspecified unspecified  	O	null
+20 טרופות טרף טרופות participle feminine plural absolute any unspecified  	O	null
+21 ( ( ( punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+22 ###NUMBER### ###NUMBER### ###NUMBER### numeral unspecified unspecified unspecified unspecified unspecified  	I_DATE	null
+23 ) ) ) punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+24 ו ו ועל conjunction unspecified unspecified unspecified unspecified unspecified 0 
+24 על על ועל preposition unspecified unspecified unspecified unspecified unspecified  	O	null
+25 תנאי תנאי תנאי noun masculine plural construct unspecified unspecified  	O	null
+26 ) ) ) punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+27 . . . punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+28 ###NUMBER### ###NUMBER### ###NUMBER### numeral unspecified unspecified unspecified unspecified unspecified  	I_DATE	null
+29 תירגמה תרגם תירגמה verb feminine singular unspecified 3 past  	O	null
+30 יצירות יצירה יצירות noun feminine plural construct unspecified unspecified  	O	null
+31 של של של shel-preposition unspecified unspecified unspecified unspecified unspecified  	O	null
+32 סופרים ספר סופרים participle masculine plural absolute any unspecified  	O	null
+33 חשובים חשב חשובים participle masculine plural absolute any unspecified  	I_ORG	null
+34 נוספים נוסף נוספים verb masculine plural unspecified any beinoni  	O	null
+35 , , , punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+36 למשל למשל למשל conjunction unspecified unspecified unspecified unspecified unspecified  	O	null
+37 ספר ספר ספרו noun masculine singular absolute unspecified unspecified  
+37 ו ו ספרו possessive masculine singular unspecified 3 unspecified 0 	O	null
+38 של של של shel-preposition unspecified unspecified unspecified unspecified unspecified  	O	null
+39 יוקיו יוקיו יוקיו properName unspecified unspecified unspecified unspecified unspecified  	I_PERS	null
+40 מ מ מישימה preposition unspecified unspecified unspecified unspecified unspecified 0 
+40 ישימה ישים מישימה adjective feminine singular absolute unspecified unspecified  	O	null
+41 מקדש מקדש מקדש noun masculine singular construct unspecified unspecified  	O	null
+42 ה ה הזהב definiteArticle unspecified unspecified unspecified unspecified unspecified 0 
+42 הזהב זהב הזהב noun masculine singular absolute unspecified unspecified  	O	null
+43 ( ( ( punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+44 ) ) ) punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+45 , , , punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+46 ###NUMBER### ###NUMBER### ###NUMBER### numeral unspecified unspecified unspecified unspecified unspecified  	I_DATE	null
+47 לצד לצד לצד preposition unspecified unspecified unspecified unspecified unspecified  	O	null
+48 יצירות יצירה יצירות noun feminine plural construct unspecified unspecified  	O	null
+49 קלותיותר קלותיותר קלותיותר adverb unspecified unspecified unspecified unspecified unspecified  	O	null
+50 של של של shel-preposition unspecified unspecified unspecified unspecified unspecified  	O	null
+51 סופרים ספר סופרים participle masculine plural absolute any unspecified  	O	null
+52 פופולריים פופולרי פופולריים adjective masculine plural absolute unspecified unspecified  	O	null
+53 , , , punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+54 כמו כמו כמו conjunction unspecified unspecified unspecified unspecified unspecified  	O	null
+55 ספרה סיפר ספרה verb feminine singular unspecified 3 past  	O	null
+56 של של של shel-preposition unspecified unspecified unspecified unspecified unspecified  	O	null
+57 בננה בננה בננה noun feminine singular absolute unspecified unspecified  	O	null
+58 יושימוטו.P.N(2000) יושימוטו.P.N(2000) יושימוטו.P.N(2000) noun masculine singular absolute unspecified unspecified  	O	null
+59 ו ו וספרו conjunction unspecified unspecified unspecified unspecified unspecified 0 
+59 ספר ספר וספרו noun masculine singular absolute unspecified unspecified  
+59 ו ו וספרו possessive masculine singular unspecified 3 unspecified 0 	O	null
+60 של של של shel-preposition unspecified unspecified unspecified unspecified unspecified  	O	null
+61 קיואיצ'י קיואיצ'י קיואיצ'י properName unspecified unspecified unspecified unspecified unspecified  	I_PERS	null
+62 קטאיאמה קטאיאמה קטאיאמה properName unspecified unspecified unspecified unspecified unspecified  	I_PERS	null
+63 אהבה אהבה אהבה noun feminine singular absolute unspecified unspecified  	O	null
+64 זועקת זעק זועקת verb feminine singular unspecified any beinoni  	O	null
+65 מ מ מלב preposition unspecified unspecified unspecified unspecified unspecified 0 
+65 לב לב מלב properName unspecified unspecified unspecified unspecified unspecified  	I_PERS	null
+66 ה ה העולם definiteArticle unspecified unspecified unspecified unspecified unspecified 0 
+66 העולם עולם העולם noun masculine singular absolute unspecified unspecified  	O	null
+67 ) ) ) punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+68 , , , punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+69 ###NUMBER### ###NUMBER### ###NUMBER### numeral unspecified unspecified unspecified unspecified unspecified  	I_DATE	null
+70 ש ש שהיה relativizer/subordinatingConjunction unspecified unspecified unspecified unspecified unspecified 0 
+70 היה הוא שהיה copula masculine singular unspecified 3 past  	O	null
+71 אחד CARD1 אחד numeral masculine singular construct unspecified unspecified  	O	null
+72 מרבי מרבי מרבי adjective masculine singular absolute unspecified unspecified  	O	null
+73 - - - punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+74 ה ה המכר definiteArticle unspecified unspecified unspecified unspecified unspecified 0 
+74 המכר מכר המכר noun masculine singular absolute unspecified unspecified  	O	null
+75 ה ה הגדולים definiteArticle unspecified unspecified unspecified unspecified unspecified 0 
+75 הגדולים גדול הגדולים adjective masculine plural absolute unspecified unspecified  	O	null
+76 ב ב ביפן preposition unspecified unspecified unspecified unspecified unspecified 0 
+76 יפן יפן ביפן properName unspecified unspecified unspecified unspecified unspecified  	I_LOC	null
+77 . . . punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+
+0 References References References foreign unspecified unspecified unspecified unspecified unspecified  	O	null
+1 : : : punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+2 ל ל לחמנוביץ preposition unspecified unspecified unspecified unspecified unspecified 0 
+2 ה ה לחמנוביץ definiteArticle unspecified unspecified unspecified unspecified unspecified 0 
+2 החמנוביץ החמנוביץ לחמנוביץ adjective masculine plural absolute unspecified unspecified  	O	null
+3 , , , punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+4 עמר עמר עמר properName unspecified unspecified unspecified unspecified unspecified  	I_PERS	null
+5 . . . punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+
+0 " " " punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+1 ה ה הקול definiteArticle unspecified unspecified unspecified unspecified unspecified 0 
+1 הקול קול הקול noun masculine singular absolute unspecified unspecified  	O	null
+2 ה ה העברי definiteArticle unspecified unspecified unspecified unspecified unspecified 0 
+2 העברי עברי העברי adjective masculine singular absolute unspecified unspecified  	O	null
+3 של של של shel-preposition unspecified unspecified unspecified unspecified unspecified  	O	null
+4 מ מ מורקמי preposition unspecified unspecified unspecified unspecified unspecified 0 
+4 ורקם ורקם מורקמי noun masculine plural absolute unspecified unspecified  
+4 ו ו מורקמי possessive masculine singular unspecified 3 unspecified 0 	O	null
+5 " " " punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+6 . . . punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+
+0 ישראל ישראל ישראל properName unspecified unspecified unspecified unspecified unspecified  	I_PERS	null
+1 היום היום היום adverb unspecified unspecified unspecified unspecified unspecified  	O	null
+2 ספרים ספר ספרים noun masculine plural absolute unspecified unspecified  	O	null
+3 . . . punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+
+0 ###NUMEXP### ###NUMEXP### ###NUMEXP### numberExpression unspecified unspecified unspecified unspecified unspecified  	I_DATE	null
+1 . . . punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+
+0 ###NUMBER### ###NUMBER### ###NUMBER### numeral unspecified unspecified unspecified unspecified unspecified  	O	null
+1 . . . punctuation unspecified unspecified unspecified unspecified unspecified  	O	null
+
