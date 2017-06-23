@@ -12,15 +12,12 @@ from shutil import copy2
 
 class Doc_Vector:
 	
-	# Dictionary <word, counter_num_of_appearances_in_document>
-	word_vector = dict()
-
-	''' # Optional: check text for hebrew words only
+	# Optional: check text for hebrew words only
 	def check_t_hebrew (self,term):
 		if len(term) > 1:
 			return all("\u05D0" <= c <= "\u05EA" for c in term)
 		return False
-	'''
+	
 
 	# Returns number of appearances of word 'w' in the document
 	# If the word doesn't appear in the document Returns 0
@@ -45,15 +42,22 @@ class Doc_Vector:
 		return lenth
 
 	# Constructor for Doc_Vector, Recieves a path to a document and creates a Doc_Vector Object. 
+	'''
+	Variabels:
+		word_vector <word, number_of_appearances_in_doc> : holds all the words and their counters.
+		doc_name : the name of the file.
+		size : the document length = amount of words.
+	'''
 	def __init__(self, path):
+		self.word_vector = dict()
 		self.doc_name = os.path.basename(path)
 		with codecs.open (path, 'r',encoding="utf8" ) as doc:
 			for line in doc:
 				line_words = line.split()
-				if line_words:
-					term = line_words[2]
-					#if self.check_t_hebrew(term):
-					self.update_word_vector(term)
+				if len(line_words) > 1:
+					term = line_words[1]					
+					if self.check_t_hebrew(term):
+						self.update_word_vector(term)
 		self.size = self.get_size()
 
 # ====================== Global Variables ======================
@@ -148,16 +152,18 @@ def bm25(vec, doc):
 	sim = 0
 	for word in vec.word_vector:
 		if word in doc.word_vector:
-			sim += tf(word, vec) * tf(word, doc) * get_idf(word)
+			sim += vec.word_vector[word] * tf(word, doc) * get_idf(word)
 	return sim
 
 # Compare all files in the Data Base directory and calculate their bm25 value
 def compr (file):
+	global vec
 	print ("Comparing, Please wait...")
 	vec = Doc_Vector(file)
 	for doc in docs_vector:
 		docs_comp[doc] = bm25(vec, docs_vector[doc])
 	print ("Finished Comparing!")
+
 
 # ====================== Service Functions ======================
 
@@ -168,7 +174,6 @@ def print_first(num):
 	else:
 		for key in sorted(docs_comp.items(), key= itemgetter(1), reverse = True)[:num]:
 			print ("{} : {}".format(key[0][::-1], key[1]))
-		print("\nOur original: {} : {}".format("1031_פרנקל_אלונה(גולדמן_אילונה).txt"[::-1], docs_comp["1031_פרנקל_אלונה(גולדמן_אילונה).txt"]))
 
 # Copy most similar 'num' documents to dictionary Max_'num'
 def copy_first(num):
@@ -237,4 +242,7 @@ def update_data_dir():
 # ====================== main ======================
 update_data_dir()
 open_menu()
-
+#print("vec size is: ", vec.get_size())
+'''if not vec == {}:
+	for key in vec.word_vector:
+		print("{} : {}".format(key[::-1], vec.word_vector[key]))'''
