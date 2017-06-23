@@ -172,7 +172,7 @@ def print_docs (docs):
 
 # ====================== main ======================
 
-print("Please Wait a few seconds while we build the Data Base...\n")
+print("Please Wait a few seconds while we build the Data Base in folder 'source_files'...\n")
 build_vectors("source_files")
 idf_dict = bulid_idf_table()
 print("Completed building the Data Base in folder 'source_files';")
