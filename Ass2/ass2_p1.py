@@ -242,7 +242,3 @@ def update_data_dir():
 # ====================== main ======================
 update_data_dir()
 open_menu()
-#print("vec size is: ", vec.get_size())
-'''if not vec == {}:
-	for key in vec.word_vector:
-		print("{} : {}".format(key[::-1], vec.word_vector[key]))'''
