@@ -34,12 +34,13 @@ def create_tsv():
 			with codecs.open(item ,'r',encoding='utf8') as file:			
 				for line in file:
 					text = line.split()
-					if 'I_LOC' in text:
-						output.write("{}\t{}\t{}\tI_LOC\n".format(name,file,text[2]))
-					elif 'I_PERS' in text:						
-						output.write("{}\t{}\t{}\tI_PERS\n".format(name,file,text[2]))
-					elif 'I_ORG' in text:						
-						output.write("{}\t{}\t{}\tI_ORG\n".format(name,file,text[2]))
+					if len(text) > 0 and len(text[2]) > 1:
+						if 'I_LOC' in text:
+							output.write("{}\t{}\t{}\tI_LOC\n".format(name,item,text[2]))
+						elif 'I_PERS' in text:						
+							output.write("{}\t{}\t{}\tI_PERS\n".format(name,item,text[2]))
+						elif 'I_ORG' in text:						
+							output.write("{}\t{}\t{}\tI_ORG\n".format(name,item,text[2]))
 	print("Finished!")
 
 
