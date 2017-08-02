@@ -1,7 +1,6 @@
 # coding=utf8
 import sys
 import codecs
-import re
 import glob
 
 
